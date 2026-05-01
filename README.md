@@ -1,8 +1,8 @@
 # Incident Triage Agent
 
-Incident Triage Agent is a Python-based AI agent project for production incident triage.
+Incident Triage Agent is a Python-based AI agent for turning noisy production signals into structured, auditable triage decisions.
 
-It is designed to sit between observability, ticketing, and business-event systems and provide a unified triage layer that can:
+It sits between observability, ticketing, and business-event systems and provides a unified triage layer that can:
 
 - normalize incident inputs from multiple sources
 - classify incidents and estimate severity
@@ -38,4 +38,3 @@ See [`AGENTS.md`](./AGENTS.md) for the project-level development contract.
 3. Add a first-pass classifier and severity rubric.
 4. Add context enrichment interfaces for services, history, and runbooks.
 5. Introduce structured output and audit logging.
-

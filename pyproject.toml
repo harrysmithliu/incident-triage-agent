@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "incident-triage-agent"
 version = "0.1.0"
-description = "An AI agent project for production incident triage."
+description = "A Python AI agent for production incident triage, context enrichment, and workflow routing."
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
@@ -21,4 +21,3 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
