@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "incident-triage-agent"
+version = "0.1.0"
+description = "An AI agent project for production incident triage."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "harrysmithliu" }
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/harrysmithliu/incident-triage-agent"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
