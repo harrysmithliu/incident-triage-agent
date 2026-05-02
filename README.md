@@ -20,7 +20,7 @@ Review in both scenarios means:
 
 The authoritative source requirements are documented in:
 
-- `docs/incident_triage_agent_requirements_master_en.md`
+- `docs/incident_triage_agent_requirements.md`
 
 ## Project Structure
 
